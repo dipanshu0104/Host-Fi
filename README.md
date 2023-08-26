@@ -29,7 +29,7 @@ This tool is tested on :
 
 ## Authors
 
-- [Its-Jerry](https://github.com/Its-Jerry)
+- [dipanshu0104](https://github.com/dipanshu0104)
 
 
 ## Installation
