@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .han {
+    transition: all 0.2s ease-in;
+    display: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.han.anihan {
+    transform: rotate(90deg);
+}
+.bur {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 5px;
+}
+body nav {
+    border-bottom: 1px solid rgb(143, 143, 143);
+    background: #3c4043;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ body .container {
+    display: flex;
+}
+body .container header {
+    height: 90.7vh;
+    background: white;
+    width: 20vw;
+    border-right: 1px solid rgb(151, 143, 143);
+}
+
+body .container main{
+     height: 90.7vh;
+     width: 82vw;
+     overflow: hidden;
+     overflow-y: scroll;
+     scroll-behavior: smooth;
+     background-color: rgb(198 206 213);
+}
+.container header #scroller {
+    border: 1px solid grey;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 18.7rem;
+    margin-top: 3rem;
+}
+
+.container header #scroller .item a:hover {
+    background: rgb(81 85 94);
+    color: white;
+}
+.container header #scroller .item a {
+    border: 1px solid rgb(60, 73, 74);
+    transition: 0.3s all ease-in;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 400;
+    overflow: hidden;
+    margin: 15px;
+    display: block;
+    font-size: 18px;
+    padding: 6px 15px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #3c4043;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid #3c4043;
+    border-radius: 10px;
+}
+
+@media (max-width: 1174px) {
+    .han {
+        display: block;
+    }
+    
+    body .container header {
+        position: absolute;
+        width: 18rem;
+        transition: 0.7s all ease-in-out;
+        left: -20rem;
+        z-index: 2;
+    }
+
+    body .container header.visible {
+       left: 0rem;
+       transition: 0.7s all ease-in-out;
+    }
+
+    body .container main {
+        z-index: 1;
+        width: 100vw;
+    }
+
+}
+
+@media (max-width: 474px) {
+    body .container header {
+        width: 100vw;
+        left: -30rem;
+    }
+}
+
+    /* css for content */
+
+    body nav h1 {
+        font-size: 2.2rem;
+        margin-left: 20px;
+        color: white;
+      }
+  
+      .container main .portion {
+        background: white;
+        border-radius: 5px;
+        box-shadow: 1px 1px 17px grey;
+        display: flex;
+        margin: 1rem 2rem;
+      }
+  
+      .portion .content {
+        overflow: hidden;
+      }
+  
+      .portion .content h1 {
+        width: 24rem;
+        border-bottom: 2px solid rgb(68, 149, 187);
+        padding-bottom: 1rem;
+        margin: 2rem 3rem;
+        color: rgb(39, 41, 42);
+      }
+  
+      .portion .content .para p {
+        color: rgb(65 69 70);
+        line-height: 30px;
+        font-size: 19px;
+      }
+  
+      .portion .content .para {
+        margin: 1rem;
+        padding: 0rem 2rem;
+      }
+  
+  
+      .points {
+        padding: 1rem;
+        margin-top: 1.5rem;
+        border-radius: 5px;
+        background: #e4ecef;
+        border-left: 6px solid #4988d3;
+      }
+  
+      .points li {
+        margin-left: 3rem;
+        font-size: 19px;
+        color: rgb(65 69 70);
+        line-height: 30px;
+      }
+  
+      img {
+        background-size: cover;
+        width: 90%;
+        margin-left: 5.5%;
+      }
+  
+      .note {
+        padding: 1rem;
+        margin: 2rem 2.8rem;
+        border-radius: 5px;
+        background: #fdf4b3;
+        border-left: 6px solid #d9bb34;
+      }

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="help_css.css">
+  <title>Help for Host-Fi</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Host-Fi</h1>
+    <div class="han">
+      <div class="bur"></div>
+      <div class="bur"></div>
+      <div class="bur"></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header class="menu">
+      <div id="scroller">
+        <h3 class="item"><a href="#intro">Introduction</a></h3>
+        <h3 class="item"><a href="#create">Host Network </a> </h3>
+        <h3 class="item"><a href="#start">Start Host Network</a></h3>
+        <h3 class="item"><a href="#set">Set/Change Password</a></h3>
+        <h3 class="item"><a href="#stop">Stop Host Network</a></h3>
+        <h3 class="item"><a href="#see">See Details</a></h3>
+        <h3 class="item"><a href="#help">Help for Tool</a></h3>
+        <h3 class="item"><a href="#clear">Clear Screen</a></h3>
+        <h3 class="item"><a href="#exit">Exit the Tool</a></h3>
+        <!-- <h3 class="item"><a href="#pro">About Us</a></h3> -->
+      </div>
+    </header>
+
+    <main class="content">
+
+      <!-- Intorduction section -->
+
+      <div id="intro" class="portion">
+        <div class="content">
+          <h1>Introduction</h1>
+          <div class="para">
+            <p class="contarea">
+              The Host-Fi tool is basically used to create a hosted network ( Hotspot )
+              in the Windows operating system. This tool can create a Virtual hosted network.
+              And with the help of this we can easily establish a good connection
+              with password security. This hosted network is virtual and It's settings are
+              totally isolated, means that this hosted network ( Which is created by Host-Fi tool )
+              settings are not effect the actual in-built Hosted network in Windows operating system.
+              This tool only use your system hardware Virtually.
+
+            </p>
+          </div>
+
+          <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                This tool is written in batch script. It is very popular scripting language which
+                is used for Windows automation, autotasking and basic Windows customization.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h1>Features</h1>
+            <div class="para">
+              <p>
+                This tool has various types of features. Which are very useful for basic work.
+              </p>
+
+              <ul class="points">
+                <li>User friendly interface.</li>
+                <li>Connect multiple devices.</li>
+                <li>Create a virtual local hosted network.</li>
+                <li>Share data easily between devices.</li>
+                <li>Easily see the details about the network and connections.</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="testarea">
+            <h1>Testing</h1>
+            <div class="para">
+              <p>
+                This Tool Host-Fi is Tested on various versions of Windows. Its is working very
+                efficiently.
+              </p> <br>
+              <p>This tool is tested on : </p>
+
+              <ul class="points">
+                <li>Windows 7 ( New Version )</li>
+                <li>Windows 8 ( All Versions )</li>
+                <li>Windows 8.1 ( All Versions )</li>
+                <li>Windows 10 ( All Versions )</li>
+                <li>Windows 11 ( All versions )</li>
+              </ul>
+
+            </div>
+            <img src="Screenshot/demo.PNG" alt="Error">
+          </div>
+        </div>
+      </div>
+
+      <!-- Create a Hosted network -->
+
+      <div id="create" class="portion">
+        <div class="content">
+          <h1>Create hosted network</h1>
+          <div class="para">
+            <p class="contarea">
+              For create the hosted network ( Hotspot ) if it is not configure on your system,
+              Just Right click on the Host-Fi desktop icon and click on ( Run as administrator )
+              and run it as all system perivilages. When the tool is start and it shows options,
+              Then press 1 on your keyboard and select option number 1 and press Enter. It ask's
+              you to assign a name or SSID for your hosted network which you want to create.
+              Type your SSID for your network and press Enter. The hosted network is created on
+              your Windows operating system.
+            </p>
+          </div>
+
+          <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                In this process to perform first task or operation. The tool run a command
+                prompt command by using batch script.
+              </p>
+              <h3 style="margin: 10px;">Command</h3>
+              <p style="padding-top: 0.2rem; margin-left: 10px; color: rgb(89, 97, 254);">
+                netsh wlan set hostednetwork mode=allow ssid=Name
+              </p>
+
+            </div>
+          </div>
+          <img src="Screenshot/hostnetwork.PNG" alt="Error">
+
+          <div class="para">
+            <p class="contarea">
+              It run command in background. And by the command it will create a hosted
+              network. Which is totaly isolated to your built-in hosted network.
+            </p> <br>
+            <p class="contarea">
+              After create a hotspot. Tool automatic start it, And then it provide you
+              the basic details section about the hotspot. like NameId, password etc.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Start Host network section -->
+
+      <div id="start" class="portion">
+        <div class="content">
+          <h1>Start hosted network</h1>
+          <div class="para">
+            <p class="contarea">
+              For start a hosted network, which is newly create by tool or already created.
+              You just only select option number 2 by press 2 on your keyboard, and press
+              Enter. Now doing this step it will start your hosted network. And now you can
+              connect your devices to your pc or laptop via hotspot.
+            </p>
+          </div>
+
+          <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                For Start the hosted network. The tool run a command prompt command by using
+                batch script.
+              </p>
+              <h3 style="margin: 10px;">Command</h3>
+              <p style="padding-top: 0.2rem; margin-left: 10px; color: rgb(89, 97, 254);">
+                netsh wlan start hostednetwork
+              </p>
+            </div>
+          </div>
+
+          <img src="Screenshot/start.PNG" alt="Error">
+
+          <div class="para">
+            <p class="contarea">
+              This runs a command in background. And by the command it will start a hosted
+              network. Because this command helps us to start the hosted network. which is
+              exist in your operating system.
+            </p> <br>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Set/Change Password section -->
+
+      <div id="set" class="portion">
+        <div class="content">
+          <h1>Set/Change password</h1>
+
+          <div class="para">
+            <p class="contarea">
+              This tool is provide you password security or authentication system for your
+              access point. This use WPA2-Personal authentication type for the authentication
+              of your access point ( Hotspot ). This is default type of authentication, which
+              the tool is use.
+            </p>
+          </div>
+
+          <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                This tool use a command to set or change the passsword. For this it runs a
+                command in the background. And then the command set the password for your
+                host network.
+              <h3 style="margin: 10px;">Command</h3>
+              <p style="padding-top: 0.2rem; margin-left: 10px; color: rgb(89, 97, 254);">
+                netsh wlan set hostednetwork key=Password
+              </p>
+              </p>
+            </div>
+          </div>
+
+          <img src="Screenshot/setpass.PNG" alt="">
+
+          <div class="para">
+            <p class="contarea">
+              For set or change the password. First you need to select the option 3 by press 3
+              on your keyboard, and then press Enter. Next this asks you for password, so just
+              type the password for your access point, and press Enter. Now your Password is set
+              for your hosted network's access point.
+            </p> <br>
+            <p class="contarea">
+              Now you can connect devices to the hosted network by fill the password of the access point.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Stop host network -->
+
+      <div id="stop" class="portion">
+        <div class="content">
+          <h1>Stop host network</h1>
+
+          <div class="para">
+            <p class="contarea">
+              When you want to stop the hosted access point, when you are not using it. So you can
+              also stop it in very easy way into few steps.
+            </p> <br>
+            <p class="contarea">
+              For stop the access point of the host network which you create by the tool, you just
+              select the option number 4 by press 4 on your keyboard, and press Enter. Few second
+              later, tool will shows you a stop message. Means the access point or the host network
+              stopped.
+             </p>
+          </div>
+
+          <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                This tool use a command to stop the access point. For this it runs a
+                command in the background. And then the command stop the access point or
+                host network.
+              <h3 style="margin: 10px;">Command</h3>
+              <p style="padding-top: 0.2rem; margin-left: 10px; color: rgb(89, 97, 254);">
+                netsh wlan stop hostednetwork 
+              </p>
+              </p>
+            </div>
+          </div>
+          <img src="Screenshot/stophost.PNG" alt="Error">
+          <div class="para"></div>
+        </div>
+      </div>
+
+                 <!-- See details section -->
+
+      <div id="see" class="portion">
+      <div class="content">
+        <h1>See details</h1>
+
+        <div class="para">
+          <p class="contarea">
+            Some time you want to see the details about your access point and the hosted network,
+            like SSID ( Name of access point ), password, authentication type, status ( on/off ) 
+            means your access point is on or off, number of clients connected to your hosted network 
+            etc. So by the help of this option you can easily see the specific detail about your
+            access point or hosted network in very easy and formated way.
+          </p>
+        </div>
+
+        <div class="note">
+            <div class="para" style="padding: 0rem 1rem;">
+              <h2>Note</h2>
+              <p style="padding-top: 0.2rem;">
+                This tool use a command to stop the access point. For this it runs a
+                command in the background. And then the command stop the access point or
+                host network.
+              <h3 style="margin: 10px;">Command</h3>
+              <p style="padding-top: 0.2rem; margin-left: 10px; color: rgb(89, 97, 254);">
+                netsh wlan show hostednetwork <br>
+                netsh wlan show hostednetwork security | findstr User
+              </p>
+              </p>
+            </div>
+          </div>
+          <img src="Screenshot/details.PNG" alt="Error">
+
+          <div class="para">
+            <p class="contarea">
+              For see the details about the access point, simply select option number 5 by press
+              5 on your keyboard and press Enter. Now you can see a list of information which
+              mention in the top of the See details section. This list have the information about
+              the access point or hosted network.
+            </p>
+          </div>
+      </div>
+      </div>
+
+                 <!-- Help for tool Section -->
+
+      <div id="help" class="portion">
+       <div class="content">
+
+        <h1>Help for tool</h1>
+        <div class="para">
+          <p class="contarea">
+            This tool is also provide you the help section. With the help of this help section 
+            you can easily understand how this tool works and how to use it. This tool provide
+            your two types of help.
+          </p> <br>
+          <h3 style="color: rgb(39, 41, 42);">Types of help :-</h3>
+          <ul class="points">
+            <li>Text based help.</li>
+            <li>Web based help.</li>
+          </ul>
+        </div>
+
+        <h2 style="padding :0.2rem; margin-left: 3rem; color: rgb(39, 41, 42);">1. Text based help</h2>
+
+        <div class="para">
+          <p class="contarea">
+           This type of help provide you command line text help. This help section contains steps.
+           These steps easily define how to use this tool. As shown in image : 
+          </p>
+        </div>
+            <img src="Screenshot/helptxt.PNG" alt="Error">
+        
+        <div class="para">
+          <p class="contarea">
+           For open this help section, you just simply select option number 6 by press 6 on your 
+           keyboard and press Enter. you will see a list of help. From there select option number 
+           1 and press Enter. you will see the output as show in image. You can read the steps
+           and go back to the main tool section by select option 4 and press Enter. Now you can 
+           use the tool by understand the tool help script.
+          </p>
+        </div>
+
+        <h2 style="padding :0.2rem; margin-left: 3rem; color: rgb(39, 41, 42);">1. Web based help</h2>
+
+        <div class="para">
+          <p class="contarea">
+           This type of help provide you web documentation help. This help section contains a specific 
+           help for every option with images. So that's why it is more easy to understand .
+           These section easily define how to use this tool. As shown in image : 
+          </p>
+        </div>
+            <img src="Screenshot/helpsite.PNG" alt="Error">
+        
+        <div class="para">
+          <p class="contarea">
+           For open this help section, you just simply select option number 6 by press 6 on your 
+           keyboard and press Enter. You will see a list of help. From there select option number 
+           2 and press Enter. It will open the help documentation on your browser. You will see 
+           the output as show in image. Now read the steps and go to the main tool window and 
+           select option 4 for go back and press Enter. Now you can use the tool by understand 
+           the tool help documentation.
+          </p>
+        </div>
+
+       </div>
+      </div>
+
+                 <!-- Clear Screen Section -->
+
+      <div id="clear" class="portion">
+       <div class="content">
+        <h1>Clear screen</h1>
+
+        <div class="para">
+          <p class="contarea">
+           Sometime we want to clear screen. Because the options output make the screen complicate
+           to see the specific line or output. It becomes hard to see the options output. For that
+           reason we need to clear the screen or window of the tool. For do this select the option 
+           7 and press Enter. The tool screen will clear. 
+          </p>
+        </div>
+        <h2 style="padding :1rem; margin-left: 3rem; color: rgb(39, 41, 42);">Before</h2>
+           <img src="Screenshot/clearbefore.PNG" alt="Error">
+           <h2 style="padding :1rem; margin-left: 3rem; color: rgb(39, 41, 42);">After</h2>
+           <img src="Screenshot/clearafter.PNG" alt="Error">
+           <div class="para"></div>
+
+       </div>
+      </div>
+
+                  <!-- Exit the tool Section -->
+
+      <div id="exit" class="portion">
+        <div class="content">
+          <h1>Exit the tool</h1>
+          <div class="para">
+            <p class="contarea">
+              When your work will done. You can exit the tool by select the last option by press 99
+              and press Enter. Few seconds later yor tool will exit or close.
+            </p>
+          </div>
+          <img src="Screenshot/exit.PNG" alt="Error">
+          <div class="para"></div>
+
+        </div>
+      </div>
+
+                   <!-- Profiles Section -->
+
+      <!-- <div id="pro" class="portion">Profiles</div> -->
+    </main>
+
+  </div>
+
+
+  <script>
+    let button = document.querySelector(".han");
+    let side = document.querySelector(".menu");
+
+    button.addEventListener("click", function sidethrow() {
+      side.classList.toggle("visible");
+      button.classList.toggle("anihan");
+    });
+  </script>
+
+</body>
+
+</html>
