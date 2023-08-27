@@ -55,8 +55,8 @@ echo      "        | )   ( | | (___) | /\____) |    | |              | )       _
 echo      "        |/     \| (_______) \_______)    )_(              |/        \_______/         "
 echo      "                                                                                      "
 echo      "                 +----------(+) Tool- Name : Host-Fi (+)----------+                   "
-echo      "                    +--------(+) Author : Its-Jerry (+)---------+                     "
-echo      "             +------(+) Github : https://github.com/Its-Jerry (+)------+              "
+echo      "                  +--------(+) Author : dipanshu0104 (+)---------+                    "
+echo      "            +------(+) Github : https://github.com/dipanshu0104 (+)------+            "
 echo      "                                                                                      "
 echo      ----------------------------------------------------------------------------------------
 echo.
