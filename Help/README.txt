@@ -2,8 +2,8 @@
            Host-fi (  Your Friend to built your own network...... )
 
                 +----------(+) Tool- Name : Host-fi (+)----------+
-                   +--------(+) Author : Its-Jerry (+)---------+
-            +------(+) Github : https://github.com/Its-Jerry (+)------+
+                 +--------(+) Author : dipanshu0104 (+)---------+
+           +------(+) Github : https://github.com/dipanshu0104 (+)------+
 
                           *********** Start ***********
 
